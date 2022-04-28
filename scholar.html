@@ -1,0 +1,126 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Journaltocs Administration System</title>
+	<link href="css/scholar.css" type="text/css" rel="stylesheet">
+<script language="JavaScript" type="text/javascript">
+<!--
+function changetext(id, journalID) {
+    var xmlHttpReq = false;
+    var self = this;
+    // Mozilla/Safari
+    if (window.XMLHttpRequest) {
+        self.xmlHttpReq = new XMLHttpRequest();
+    }
+    // IE
+    else if (window.ActiveXObject) {
+        self.xmlHttpReq = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    self.xmlHttpReq.open('GET', "following.php?journalID="+journalID, true);
+
+    self.xmlHttpReq.onreadystatechange = function() {
+        if (self.xmlHttpReq.readyState == 4) {
+            var response = self.xmlHttpReq.responseText;
+						id.innerHTML=response;
+        }
+    }
+    self.xmlHttpReq.send(null);
+}
+function changeaccess(id, journalID) {
+    var xmlHttpReq = false;
+    var self = this;
+    // Mozilla/Safari
+    if (window.XMLHttpRequest) {
+        self.xmlHttpReq = new XMLHttpRequest();
+    }
+    // IE
+    else if (window.ActiveXObject) {
+        self.xmlHttpReq = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    self.xmlHttpReq.open('GET', "access.php?journalID="+journalID, true);
+
+    self.xmlHttpReq.onreadystatechange = function() {
+        if (self.xmlHttpReq.readyState == 4) {
+            var response = self.xmlHttpReq.responseText;
+						id.innerHTML=response;
+        }
+    }
+    self.xmlHttpReq.send(null);
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+var helpPopup = '';
+function openPopup(url,w,h) {
+  var myPopup = '';
+  if(typeof(w)==='undefined') w = 685;
+  if(typeof(h)==='undefined') h = 520;	
+	myPopup = window.open(url,'popupWindow','width='+w+',height='+h+',screenX=30,screenY=30,left=30,top=30,resizable=yes, scrollbars=yes,status=yes');
+    if (!myPopup.opener)
+         myPopup.opener = self; 
+}
+//-->
+</script>
+</head>
+<body bgcolor="#ffffff">
+<center>
+<!--start of header table-->
+<table width="900" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr valign="top">
+    <td align="left"><a href="index.php"><img src="images/jas.gif" width="131" height="30" border="0" alt="scholar"></a></td>
+		<td align="right" valign="bottom"> About &nbsp; &nbsp; Help &nbsp; </td>
+    <td width="120" align="right"><img src="images/hwlogo1.gif" width="120" height="30" border="0" alt="heriot-watt university"></td>
+</tr>
+<tr valign="top" bgcolor="#92b1dc">
+    <td height="23" align="left" colspan="2">&nbsp;</td>
+    <td width="120" height="23" align="right"><img src="images/hwlogo2.gif" width="120" height="23" border="0" alt="heriot-watt university"></td>
+</tr>
+<tr valign="middle" bgcolor="#1c60ab">
+    <td width="100%" colspan="2">
+	 <div class="title">Journaltocs Administration System &nbsp; <b style="color:#FFFFFF;font-style:italic"> </b></div>
+	</td>
+    <td width="120" align="right"><img src="images/hwlogo3.gif" width=120 height=35 border=0 alt="heriot-watt university"></td>
+</tr>
+<tr valign="top" bgcolor="#1c60ab">
+    <td height="5" colspan="3"></td>
+</tr>
+</table>
+<!--end of header table-->
+
+<!--start of content table-->
+<table cellpadding="0" cellspacing="0" border="0" width="900">
+<tr valign="top" align="left"><td align="left"><div class="content">
+<table bgcolor="92b1dc" border="0" cellpadding="2" cellspacing="0" width="900">
+<tr  bgcolor="#eeeeee"><td align="left" valign="bottom" class="important" style="font-weight:bold; font-size:90%">
+			THISMENUBAR</td>
+		  <td align="right" valign="bottom" class="important">THISLOGINSTATUS &nbsp;</td>
+</tr><tr><td colspan="2">
+<table bgcolor="#eeeeee" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td bgcolor="#F0F8FF" align="center">
+THISPAGEBODY
+</td></tr></table>
+</td></tr></table>
+<strong>LEFTMENUTITLE</strong>
+	LEFTMENUOPTIONS
+<!--content ends here-->
+</div>
+</td></tr>
+</table>
+<!--end of content table-->
+
+<!--start of footer table-->
+<table width="900" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr valign="middle" align="left"><td valign="middle" align="left" width="30"><img alt="" border="0" height="20" width="35" src="images/circle.gif"></td><td valign="top" align="left" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td>&nbsp;</td></tr>
+<tr><td bgcolor="#2d4c9c" height="1">&nbsp;</td></tr>
+</table></td></tr>
+</table>
+<!-- copyright -->
+  <table width="900" border="0" cellspacing="0" cellpadding="5"><tr valign="bottom"><td align="right" class="copyright">&copy;&nbsp; <a href="http://www.icbl.hw.ac.uk">ICBL</a> - <a href="http://www.hw.ac.uk">Heriot-Watt&nbsp;University</a>&nbsp;2008 </td></tr></table>
+<!--end of footer table-->
+</center>
+
+</body>
+</html>

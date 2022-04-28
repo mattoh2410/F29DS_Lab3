@@ -1,0 +1,264 @@
+P  {}
+
+H1  {
+	font-size : 14pt;
+}
+
+H2  {
+	font-size : 12pt;
+}
+
+H3  {
+	font-size : 12pt;
+	font-style : italic;
+}
+
+A  {
+	color : #2D4C9C;
+}
+
+A:Visited  {
+	color : #1C60AB;
+}
+
+A:Active  {
+	color : #2D4C9C;
+}
+
+A:Hover  {
+	color : #92B1DC;
+}
+
+BODY  {
+	background-color : White;
+	font-family : sans-serif;
+	font-size : 10pt;
+	color : Black;
+}
+
+.logo  {
+	font-family : sans-serif;
+	color : #993300;
+	font-size : 20pt;
+}
+
+TD  {
+	font-family : sans-serif;
+	font-size : 10pt;
+	color : Black;
+}
+
+DIV  {
+	font-family : sans-serif;
+	color : Black;
+	font-size : 10pt;
+	text-decoration : none;
+	padding : 5pt;
+}
+
+.title  {
+	font-style : italic;
+	font-size : 14pt;
+	font-weight : bold;
+	color : White;
+	padding-top : 0pt;
+	padding-left : 5pt;
+	padding-right : 0pt;
+	padding-bottom : 0pt;
+}
+
+.tagline  {
+	font-size : 14pt;
+	font-weight : bold;
+	color : #92B1DC;
+	padding-top : 0pt;
+	padding-left : 5pt;
+	padding-right : 0pt;
+	padding-bottom : 0pt;
+}
+
+.title2  {
+	font-style : italic;
+	font-size : 13pt;
+	font-weight : bold;
+	color : White;
+	padding-top : 0pt;
+	padding-left : 5pt;
+	padding-right : 0pt;
+	padding-bottom : 0pt;
+}
+
+.metadatatitle  {
+	font-weight : bold;
+	font-family : sans-serif;
+	font-size : 8pt;
+	padding : 0pt;
+}
+
+.metadata  {
+	font-family : sans-serif;
+	font-size : 9pt;
+	padding : 0pt;
+}
+
+.topmenu  {
+	margin-left : 10pt;
+	margin-top : 5pt;
+	color : #FFFFFF;
+	font-weight : bold;
+	font-size : 9pt;
+}
+
+.subtitle  {
+	font-weight : bold;
+}
+
+tool  {
+	padding : 0pt;
+}
+
+.aim  {
+	background-color : Blue;
+}
+
+.code,CODE  {
+	font-family : Courier;
+}
+
+.reference_caption  {
+	font-size : 9pt;
+	font-weight : bold;
+	font-family : sans-serif;
+}
+
+.content  {
+	padding : 10pt;
+	font-family : sans-serif;
+	color : #000000;
+}
+
+.copyright  {
+	font-size : 9pt;
+}
+
+.SideNavOff  {
+	color : #000000;
+	background-color : #E9E9E9;
+	text-decoration : none;
+}
+
+.SideNavOn  {
+	color : #FFFFFF;
+	background-color : #2D4C9C;
+	text-decoration : none;
+}
+#niceBox {padding: 0;margin:5 5; font-family: Arial, Helvetica, sans-serif;}
+#niceBox {background:#eee; border-bottom:2px solid #ccc; padding:5px;font-size:90%;text-align:left;margin-bottom:2px;}
+#niceBox strong {font-family:verdana;}
+#niceBox input { font-family:arial; font-size:11; background-color:#FFFFFF  }
+#niceBox select { font-family:arial; font-size:11; background-color:#E4E4E4  }
+#niceBox form { padding: 10;margin:20 10%; text-align:left; margin-bottom:0; }
+
+#niceFind {padding: 0;margin:5 5; font-family: Arial, Helvetica, sans-serif;}
+#niceFind {background:#eee; border-bottom:2px solid #ccc; padding:5px;font-size:90%;text-align:center;margin-bottom:2px;}
+#niceFind input { font-family:arial; font-size:10; background-color:#FFFFFF  }
+#niceFind select { font-family:arial; font-size:10; background-color:#E4E4E4  }
+#niceFind form { padding: 0;margin:2 1; text-align:center; margin-bottom:0; margin-top:0;}
+
+fieldset
+{
+border: 1px solid #781351;
+width: 98%;
+left: 10px;
+}
+
+legend
+{
+color: #fff;
+background: #4682B4;
+border: 1px solid #781351;
+padding: 2px 6px
+}
+
+div.btns{
+	zoom:1;
+	white-space:nowrap;
+}
+
+div.btns:after
+{
+	display:block;
+	clear:both;
+	content:'';
+}
+
+div.btns a.btn{
+	float:left;
+	background:buttonface url("border-2.gif") no-repeat;cursor:pointer;font-size:0;text-align:center;
+	text-align:center;
+	display:block;
+	_width:140px;
+	min-width:140px;
+	text-decoration:none;
+	margin:3px 40px;
+}
+
+div.btns a.btn:hover span{
+	color : #000000;
+}
+
+div.btns a.btn span
+{
+	padding:3px 8px 4px 8px;
+	
+	text-align:center;
+	position:relative;
+	left:1px;top:1px;
+	display:block;
+	text-decoration:none;
+	background:url("border.gif") right bottom no-repeat;
+	/* font:small/1 Verdana; */
+	font-size:12px;
+	font-weight:bold;
+	color:#000;
+	
+}
+
+xmp{
+	margin:0;
+	font-size:1.2em;
+}
+.buttons a {
+    display:block;
+    float:right;
+    margin:0 1px 2px 2px;
+    background-color:#F0E68C;
+    border:1px solid #696969;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;
+
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size:100%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:5px 6px 6px 7px; /* Links */
+}
+.buttonsx a {
+    display:block;
+    float:left;
+    margin:0 1px 2px 2px;
+    background-color:#F0E68C;
+    border:1px solid #696969;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;
+
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size:100%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:3px 4px 4px 5px; /* Links */
+}
